@@ -1,0 +1,12 @@
+/* 
+  Localisable.strings
+  Postings
+
+  Created by Vineet Kashyap on 11/03/21.
+  
+*/
+
+"Navigation.Postings.Title" = "Postings";
+"Navigation.Comments.Title" = "Comments";
+
+"Service.Url" = "https://jsonplaceholder.typicode.com/posts/";
