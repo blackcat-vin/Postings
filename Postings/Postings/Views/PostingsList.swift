@@ -27,6 +27,7 @@ struct PostingsList: View {
                     })
                     
             }
+            .listStyle(GroupedListStyle.init())
             .navigationTitle(Strings.Navigation.Postings.title)
         }
     

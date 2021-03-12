@@ -14,10 +14,9 @@ struct PostingRow: View {
     }
     
     var body: some View {
-        VStack {
-            Text(posting.id.description)
+        HStack(alignment: .center) {
+            Text(posting.id.description).bold()
             Text(posting.title)
-            Text(posting.body)
         }
     }
 }

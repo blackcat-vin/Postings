@@ -14,11 +14,10 @@ struct CommentRow: View {
     }
     
     var body: some View {
-        VStack {
-            Text(comment.id.description)
+        VStack(alignment: .leading) {
+            Text(comment.email).bold()
+            Spacer()
             Text(comment.name)
-            Text(comment.body)
-            Text(comment.email)
         }
     }
 }
